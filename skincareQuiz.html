@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>skincareQuiz</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/skincareQuiz.css" />
+
+    <head>
+        <title> Skin Care Quiz</title>
+    </head>
+	<body>
+        <header>
+        <nav>
+            <div class="nav">
+             <h4>The Empowered Self </h4> 
+            </div>
+            <ul class="nav-links">
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="About us.html"> About us</a></li>
+                <li> <a  href="Achievements.html"> Achievements </a> </li>
+                <li><a  href="Learn a skill.html"> Learn a skill !</a></li>
+                <li><a  href="self-care.html"> Self-care</a></li>
+                <li><a class ="active" href="skincareQuiz.html">Skincare Quiz</a></li>
+                <li><a href="blogs .html"> Blog</a></li>
+                
+            </ul>       
+        </nav>
+    </header>
+
+    <!-- import the webpage's javascript file -->
+    <script src="/skincareQuiz.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Test your skin type by answering the questions</h1>
+
+    <h2>The type and size of the pores on your skin tell a lot about your skin type</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ1();incq1a1();" id="q1a1">
+            The pores on my skin appear to be enlarged, especially in the heat and dust
+          </button>
+        </div>
+      </div>
+      <div class="answer-choice">
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ1();incq1a2();" id="q1a2">
+            I really don't have a lot of those
+          </button>
+        </div>
+      </div>
+      <div class="answer-choice">
+        <img
+          alt="boortsog"
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2FBoortsog%20(%D0%91%D0%BE%D0%BE%D1%80%D1%86%D0%BE%D0%B3)(Fried%20cakecookie).jpg?v=1597264655096"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ1();incq1a3();" id="q1a3">
+            Boortsog(Fried cake/cookie)
+          </button>
+        </div>
+      </div>
+      <div class="answer-choice">
+        <img
+          alt="poutine"
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2FPoutine(French%20fries%20with%20cheese%20curds).jpg?v=1597264751061"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ1();incq1a4();" id="q1a4">Poutine</button>
+        </div>
+      </div>
+    </div>
+    <button id="clear1">Clear Selection</button>
+    <h2>Select a fruit</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          alt="alphonso mango"
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2FAlphonso%20mango.jpg?v=1597264644493"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ2();incq2a1();" id="q2a1">
+            Alphonso mango
+          </button>
+        </div>
+      </div>
+      <div class="answer-choice">
+        <img
+          alt="jenipapo"
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2FJenipapo.jpg?v=1597264710750"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ2();incq2a2();" id="q2a2">
+            Jenipapo
+          </button>
+        </div>
+      </div>
+      <div class="answer-choice">
+        <img
+          alt="seabuckthorn"
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2FSeabuckthorn.jpg?1597264772349"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ2();incq2a3();" id="q2a3">
+            Seabuckthorn
+          </button>
+        </div>
+      </div>
+      <div class="answer-choice">
+        <img
+          alt="saskatoon berry"
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2FSaskatoon%20berry.jpg?v=1597264765912"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ2();incq2a4();" id="q2a4">
+            Saskatoon berry
+          </button>
+        </div>
+      </div>
+    </div>
+    <button id="clear2">Clear Selection</button>
+    <h2>Select an activity</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          alt="lion safari"
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2FLion%20safari.jpg?1597264718285"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ3();incq3a1();" id="q3a1">
+            Lion safari
+          </button>
+        </div>
+      </div>
+      <div class="answer-choice">
+        <img
+          alt="stay in a monastery"
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2Fstay%20in%20a%20monastery.jpg?1597264801119"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ3();incq3a2();" id="q3a2">
+            Stay in a monastery
+          </button>
+        </div>
+      </div>
+      <div class="answer-choice">
+        <img
+          alt="ice hockey"
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2FIce%20hockey.jpg?1597264704231"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ3();incq3a3();" id="q3a3">
+            Ice hockey
+          </button>
+        </div>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2FTrekking%20through%20a%20rainforest.jpg?1597264804834"
+          alt="trekking through rainforest"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ3();incq3a4();" id="q3a4">
+            Trekking through a rainforest
+          </button>
+        </div>
+      </div>
+    </div>
+    <button id="clear3">Clear Selection</button>
+    <h2>Select a mountain range</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          alt="himalayas"
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2Fhimalayas.jpg?v=1597264689108"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ4();incq4a1();" id="q4a1">
+            The Himalayas
+          </button>
+        </div>
+      </div>
+      <div class="answer-choice">
+        <img
+          alt=""
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2Fthumbnails%2FRocky%20mountains.jpg?1597264758961"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ4();incq4a2();" id="q4a2">
+            Rocky mountains
+          </button>
+        </div>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2FAltai%20mountains.jpg?1597264650419"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ4();incq4a3();" id="q4a3">
+            Altai mountains
+          </button>
+        </div>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2FSerra%20do%20mar.jpg?1597264793950"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ4();incq4a4();" id="q4a4">
+            Serra do mar
+          </button>
+        </div>
+      </div>
+    </div>
+      <button id="clear4">Clear Selection</button>
+    <h2>Select an empire</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2FMauryan%20empire.jpg?v=1597264738667"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ5();incq5a1();" id="q5a1">
+            Mauryan empire
+          </button>
+        </div>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2FBritish%20empire.jpg?1597264660289"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ5();incq5a2();" id="q5a2">
+            British empire
+          </button>
+        </div>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2FMangolian%20empire.jpg?1597264726722"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ5();incq5a3();" id="q5a3">
+            Mangolian empire
+          </button>
+        </div>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2FEmpire%20of%20Brazil.png?1597264682512"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ5();incq5a4();" id="q5a4">
+            Empire of Brazil
+          </button>
+        </div>
+      </div>
+    </div>
+    <button id="clear5">Clear Selection</button>
+    <h2>Explore a religion associated with that place</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2FChristainity.jpg?1597264671023"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ6();incq6a1();" id="q6a1">
+            Christainity
+          </button>
+        </div>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2FBuddhism.jpg?1597264665029"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ6();incq6a2();" id="q6a2">
+            Buddhism
+          </button>
+        </div>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2FHinduism.jpg?1597264695644"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ6();incq6a3();" id="q6a3">
+            Hinduism
+          </button>
+        </div>
+      </div>
+      <div class="answer-choice">
+        <img
+          src="https://cdn.glitch.com/bf50cea9-6fa9-4901-9812-3f0675e6cc61%2FDoesn%E2%80%99t%20matter.png?1597264675713"
+        />
+        <br />
+        <div class="button">
+          <button onclick="disableBtnQ6();incq6a4();" id="q6a4">
+            Doesn’t matter
+          </button>
+        </div>
+      </div>
+    </div>
+      <button id="clear6">Clear Selection</button>
+    <div class="result">
+      <h2 id="result">Your result is...</h2>
+      <button id="restart">Restart</button>
+    </div>
+  </body>
+</html>

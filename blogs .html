@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Blog </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles/main.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+	<body>
+        <header>
+        <nav>
+            <div class="nav">
+             <h4>The Empowered Self </h4> 
+            </div>
+            <ul class="nav-links">
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="About us.html"> About us</a></li>
+                <li> <a  href="Achievements.html"> Achievements </a> </li>
+                <li><a  href="Learn a skill.html"> Learn a skill !</a></li>
+                <li><a  href="self-care.html"> Self-care</a></li>
+                <li><a href="skincareQuiz.html">Skincare Quiz</a></li>
+                <li><a class ="active" href="blogs .html"> Blog</a></li>
+                
+            </ul>       
+        </nav>
+    </header>
+<style>
+
+/* Create two unequal columns = next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 80%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 20%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+     background-color: snow;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+</style>
+</head>
+<body>
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2> Title (e.g. My first hackathon)</h2>
+      <h5>Title description, Jan 31, 2021</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+    </div>
+    <div class="card">
+        <h2> Title</h2>
+        <h5>Title description, Jan 30, 2021</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About the blog</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Our blog gives you the oppurtunity to apply your creative skills and share a story with us. We would love to hear your story.</p>
+    </div>
+    <div class="card">
+      <h2>Popular Posts</h2>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div class="card">
+      <h2>Follow us on our social media</h2>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+
+</body>
+
+

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> About us</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles/main.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+	<body>
+        <header>
+        <nav>
+            <div class="nav">
+             <h4>The Empowered Self </h4> 
+            </div>
+            <ul class="nav-links">
+                <li><a  href="index.html">Home</a></li>
+                <li><a class ="active" href="About us.html"> About us</a></li>
+                <li> <a  href="Achievements.html"> Achievements </a> </li>
+                <li><a  href="Learn a skill.html"> Learn a skill !</a></li>
+                <li><a  href="self-care.html"> Self-care</a></li>
+                <li><a href="skincareQuiz.html">Skincare Quiz</a></li>
+                <li><a href="blogs .html"> Blog</a></li>
+                
+            </ul>       
+        </nav>
+    </header>
+<style>
+    /* Create one box */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 100%;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+     background-color: snow;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn,  {   
+        width: 100%;
+        padding: 0;
+    }
+}
+</style>
+<div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <h2> About us</h2>
+        <p> Welcome, we are glad to have you here. We are aiming to break down the stereotypes surrounding women by equiping you with resources to take charge of your life. 
+            By partnering with non-profit organisations we have created a bespoke learning service for each individual, we have a range of skills for you to learn, you start your 
+            journey in your own hours and work on some of our recommeneded projects, we hope to run some live sessions delivered by experts so you can engage with the content.You will also 
+            receive a certificate on completion. 
+            <br> <br>
+            We are also looking to inspire you by sharing the journeys of different women from various industries and backgrounds, we will also have some live motivational talks by some 
+            of the women mentioned. So be sure to look out for those ! 
+            <br> <br>
+            We believe a balanced individual is happier and more successful, take a break and have a look at our self-care section, where we wil post some mindful activities, 
+            help you plan your goals through our weekly, monthly and yearly planner, we will also share some beauty secrets and wellbeing recipes and tips.
+            <br><br>
+            If you like our content, why not sign up for a subscription to our daily newsletter, it's free ! We hope to enlighten your day, we will send daily motivational quotes, 
+            we know you are busy individuals so we won't bombard you with information, we will send highlights of key industry trends and news to keep you up to date on the go. 
+            <br><br> 
+            We hope you enjoy The Empowered Self (TES). 
+        </p>
+        <style>
+    
+            
+            form {
+                border: 3px solid #f1f1f1;
+            }
+            
+            .container {
+                padding: 20px;
+                background-color: #f1f1f1;
+            }
+            
+            input[type=text], input[type=submit] {
+                width: 100%;
+                padding: 12px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+            }
+            
+            input[type=checkbox] {
+                margin-top: 16px;
+            }
+            
+            input[type=submit] {
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+            }
+            
+            input[type=submit]:hover {
+                opacity: 0.8;
+            }
+            </style>
+
+    <form action="Form_submission.html">
+    <div class="container">
+      <h2>Subscribe to our Newsletter</h2>
+    </div>
+  
+    <div class="container" style="background-color:snow">
+      <input type="text" placeholder="Name" name="name" required>
+      <input type="text" placeholder="Email address" name="mail" required>
+      <label>
+        <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+      </label>
+    </div>
+  
+    <div class="container">
+      <input type="submit" value="Subscribe">
+    </div>
+  </form>

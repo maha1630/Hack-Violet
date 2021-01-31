@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Learn a skill </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles/main.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+	<body>
+        <header>
+        <nav>
+            <div class="nav">
+             <h4>The Empowered Self </h4> 
+            </div>
+            <ul class="nav-links">
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="About us.html"> About us</a></li>
+                <li> <a href="Achievements.html"> Achievements </a> </li>
+                <li><a class ="active" href="Learn a skill.html"> Learn a skill !</a></li>
+                <li><a href="self-care.html"> Self-care</a></li>
+                <li><a href="skincareQuiz.html">Skincare Quiz</a></li>
+                <li><a href="blogs .html"> Blog</a></li>
+                
+            </ul>       
+        </nav>
+    </header>
+    <style>
+        /* Create one box */
+    /* Left column */
+    .leftcolumn {   
+        float: left;
+        width: 100%;
+    }
+    
+    /* Fake image */
+    .fakeimg {
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+    }
+    
+    /* Add a card effect for articles */
+    .card {
+         background-color: snow;
+         padding: 20px;
+         margin-top: 20px;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+        .leftcolumn,  {   
+            width: 100%;
+            padding: 0;
+        }
+    }
+    </style>
+    <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2> Technology </h2>
+            <div class="fakeimg" style="height:200px;">Image</div>
+            <p>The section contains courses on programming and engineering. As well as cool projects for you to do, if you'd like to gain 
+                industry experience, why not try a porject created by our sponsors, we can review your work and provide feedback. You will also 
+            receive a certificate on completion.</p>
+          </div>
+          <div class="row">
+            <div class="leftcolumn">
+              <div class="card">
+                <h2> Healthcare </h2>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p>The section contains courses on various healthcare sectors. As well as cool projects for you to do, if you'd like to gain 
+                    industry experience, why not try a porject created by our sponsors, we can review your work and provide feedback.You will also 
+                    receive a certificate on completion. </p>
+              </div>
+              <div class="row">
+                <div class="leftcolumn">
+                  <div class="card">
+                    <h2> Finance </h2>
+                    <div class="fakeimg" style="height:200px;">Image</div>
+                    <p>The section contains courses on finance, trading, taking care of and managing personal finances,
+                        programming in finance. As well as cool projects for you to do, if you'd like to gain 
+                        industry experience, why not try a porject created by our sponsors, we can review your work and provide feedback.You will also 
+                        receive a certificate on completion.</p>
+                  </div>
+                  <div class="row">
+                    <div class="leftcolumn">
+                      <div class="card">
+                        <h2> Personal</h2>
+                        <div class="fakeimg" style="height:200px;">Image</div>
+                        <p>The section contains courses on verbal,written, numerical and computing skills.This section is to enable 
+                            personal development and strengthing skillset to becoming ready to enter the job market.You will also 
+                            receive a certificate on completion.</p>
+                      </div>
